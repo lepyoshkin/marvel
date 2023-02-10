@@ -1,0 +1,14 @@
+.characters-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 250px auto;
+  grid-template-columns: 650px 425px;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  position: relative;
+  &__vision {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+  }
+}

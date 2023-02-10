@@ -1,0 +1,22 @@
+.comics-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px;
+  grid-row-gap: 45px;
+
+  &__banner {
+    display: grid;
+    grid-template-columns: 152px 1fr 133px;
+    background-color: #232222;
+    min-height: 100px;
+    padding-left: 45px;
+    padding-right: 25px;
+    align-items: center;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 24px;
+    padding-left: 83px;
+  }
+}

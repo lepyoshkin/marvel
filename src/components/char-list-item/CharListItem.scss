@@ -1,0 +1,20 @@
+.char-list-item {
+  width: 200px;
+  height: 318px;
+  background-color: #232222;
+  display: grid;
+  grid-template-rows: 200px 118px;
+  &__avatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__descr {
+    padding: 15px;
+  }
+  &__name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+}

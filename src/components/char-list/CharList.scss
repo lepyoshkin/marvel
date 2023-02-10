@@ -1,0 +1,15 @@
+.char-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: auto;
+  grid-column-gap: 25px;
+  grid-row-gap: 31px;
+  &__button {
+    margin: 50px auto;
+    width: 170px;
+    border: none;
+  }
+}

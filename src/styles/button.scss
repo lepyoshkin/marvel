@@ -1,0 +1,17 @@
+@import './variables.scss';
+.button {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: $marvel-red;
+  width: 101px;
+  &-wiki {
+    background-color: #5c5c5c;
+  }
+}
